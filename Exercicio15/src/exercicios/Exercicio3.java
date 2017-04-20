@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.estacio.terenciani.programacao;
+package exercicios;
 import java.util.Date;
 
 /**
  *
  * @author aluno
  */
-public class ExercicioAula3 {
+public class Exercicio3 {
 
     /**
      * @param args the command line arguments
