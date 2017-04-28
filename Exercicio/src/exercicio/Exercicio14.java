@@ -1,30 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exercicio;
 
-/**
- *
- * @author aluno
- */
+
 public class Exercicio14 {
 
     String name;
-	int cpfAluno;
-	int matriculaAluno;
-	int rg;
+	int CpfAluno;
+	int MatriculaAluno;
+	int Rg;
 	
 	
 	public int getRg() {
-		return rg;
+		return Rg;
 	}
-	public void setRg(int rg) {
-		this.rg = rg;
+	public void setRg(int Rg) {
+		this.Rg = Rg;
 	}
 	public String getName() {
-		return name;
+		return Name;
 	}
 	public void setName(String name) {
 		this.name = name;
