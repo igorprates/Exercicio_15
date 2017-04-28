@@ -1,19 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exercicio;
 
-/**
- *
- * @author aluno
- */
+
 public class Exercicio3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         int a = 3;
         int b = 1;
@@ -32,10 +22,15 @@ public class Exercicio3 {
             e = ++d % 3;
             b = d++ % 3;
         }
+        
         System.out.println("A: " + a);
+        
         System.out.println("B: " + b);
+        
         System.out.println("C: " + c);
+        
         System.out.println("D: " + d);
+        
         System.out.println("E: " + e);
     }
     
