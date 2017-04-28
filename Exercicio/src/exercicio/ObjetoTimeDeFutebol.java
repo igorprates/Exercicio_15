@@ -1,30 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exercicio;
 
-/**
- *
- * @author aluno
- */
+
 public class ObjetoTimeDeFutebol {
 	
-	String nomeDoTime;
-	String presidenteDoTime;
-	String tecnicoDoTime;
-	String titulosDoTime;
+	String NomeDoTime;
+	String PresidenteDoTime;
+	String TecnicoDoTime;
+	String TitulosDoTime;
 	
 	public ObjetoTimeDeFutebol() {
 		
 	}
 	
 	public ObjetoTimeDeFutebol(String name, String nomePres, String tecnico, String titulo) {
-		this.nomeDoTime = name;
-		this.presidenteDoTime = nomePres;
-		this.tecnicoDoTime = tecnico;
-		this.titulosDoTime = titulo;
+		this.NomeDoTime = name;
+		this.PresidenteDoTime = nomePres;
+		this.TecnicoDoTime = tecnico;
+		this.TitulosDoTime = titulo;
 	}
 	
 	public String getPresidenteDoTime() {
@@ -54,7 +47,7 @@ public class ObjetoTimeDeFutebol {
 	
 	@Override
 	public String toString() {
-		return "O " + this.nomeDoTime + " tem como atual presidente o " + this.presidenteDoTime + " e atual técnico do São Paulo FC é o " + this.tecnicoDoTime + " e tem " + this.titulosDoTime +".";
+		return "O " + this.nomeDoTime + " Tem como o atual presidente o " + this.presidenteDoTime + " e o atual técnico do Brasil é o " + this.tecnicoDoTime + " e tem " + this.titulosDoTime +".";
 	}
 
 }
